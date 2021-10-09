@@ -5,11 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./libs/slick/slick.css">
+  <link rel="stylesheet" href="./libs/slick/slick-theme.css">
   <title>Test</title>
 </head>
 
 <body>
+  <a href="slider.html">slider</a>
+  <div class="contain-slider">
+    <!-- <div class="slider">
+      <div>11111</div>
+      <div>11111</div>
+      <div>11111</div>
+    </div> -->
+    <div class="multiple-items">
+      <div>your content</div>
+      <div>your content</div>
+      <div>your content</div>
+    </div>
+  </div>
   <section class="main">
     <h1 class="main-title">Основи веб-програмування</h1>
   </section>
@@ -69,11 +85,13 @@
     </li>
     <li>
       Товары для дома
-      <ul>
-        <li>Кресла</li>
-        <li>Матрасы</li>
-        <li>Электрокамины</li>
-      </ul>
+      <div class="slider">
+        <ul class="slide">
+          <li>Кресла</li>
+          <li>Матрасы</li>
+          <li>Электрокамины</li>
+        </ul>
+      </div>
     </li>
   </ul>
   <p>
@@ -89,6 +107,17 @@
   <footer>
     created by vetalius
   </footer>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  </script>
+  <script src="libs/slick/slick.min.js"></script>
+  <script src="./main.js"></script>
+
 </body>
 
 </html>
