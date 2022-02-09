@@ -1,7 +1,3 @@
-$(function(){
-  $('.slider').slick({});
-
-})
 // function points(games) {
 //   return games.map(game=>{
 //     if (Number(game.slice(0, 1)) > Number(game.slice(2, 3))) {
@@ -23,7 +19,7 @@ $(function(){
 // {
 //   console.log(s.length%2==0 )
 //   return (s.length)%2 == 0 ?
-//     s.slice((s.length-1)/2, (s.length-1)/2 + 2) 
+//     s.slice((s.length-1)/2, (s.length-1)/2 + 2)
 //   : s.slice(s.length/2, s.length/2 + 1 )
 // }
 // console.log(getMiddle('123456'))
