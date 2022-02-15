@@ -37,3 +37,43 @@
 //   // return arr.find(n => arr.indexOf(n) === arr.lastIndexOf(n));
 // }
 // console.log(findUniq([0, 0, 1 ]))
+
+
+//   wrap(17,32,11) => 162
+//   wrap(13,13,13) => 124
+// wrap(1, 3, 1) => 32
+  
+// function wrap(height, width, length){
+//   const a = width * height;
+//   const b = width * length;
+//   const c = length * height;
+
+  
+
+//   if (a >= b && a >=c) {
+//     return width * 2 + height * 2 + length * 4 + 20;
+//   }
+//   if (c >= b && c >= a) {
+//     return width * 4 + height * 2 + length * 2 + 20;
+//   }
+//   if (b >= c && b >= a) {
+//     return width * 2 + height * 4 + length * 2 + 20;
+//   }
+// }
+// console.log(wrap(1, 3, 1))
+
+
+// function remove(string) {
+//   if (string.endsWith('!')) {
+//     return string.slice(0, string.length - 1);
+//   }
+//   return string
+// }
+// // remove("Hi!") === "Hi"
+// // remove("Hi!!!") === "Hi!!"
+// // remove("!Hi") === "!Hi"
+// // remove("!Hi!") === "!Hi"
+// // remove("Hi! Hi!") === "Hi! Hi"
+// // remove("Hi") === "Hi";
+
+// console.log(remove('hi!!!'));
