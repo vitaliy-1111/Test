@@ -29,3 +29,11 @@
 
 // }
 // console.log(reverseWords('The quick brown fox jumps over the lazy dog.'));
+
+
+// function findUniq(arr) {
+//   return arr.filter((el, i, ar) => ar.indexOf(el) === ar.lastIndexOf(el));
+//   // or
+//   // return arr.find(n => arr.indexOf(n) === arr.lastIndexOf(n));
+// }
+// console.log(findUniq([0, 0, 1 ]))
