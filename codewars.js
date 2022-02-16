@@ -77,3 +77,9 @@
 // // remove("Hi") === "Hi";
 
 // console.log(remove('hi!!!'));
+
+// function isPalindrome(x) {
+//  const newX =  x.toLowerCase();
+//  return newX.split('').reverse().join('')===newX
+// }
+// console.log(isPalindrome('Aba'));
