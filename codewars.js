@@ -91,8 +91,37 @@
 // remove("Hi! Hi!") === "Hi Hi!"
 // remove("Hi") === "Hi!"
 
-function remove (string) {
-  return string.split('').filter(element => element != "!").join('')+'!';
+// function remove (string) {
+//   return string.split('').filter(element => element != "!").join('')+'!';
 
-}
-console.log(remove('!!hi!!hi'));
+// }
+// console.log(remove('!!hi!!hi'));
+
+// function countPositivesSumNegatives(input) {
+//  const a = input.reduce((value, el) => {
+    
+//      value += el;
+    
+//   }, 0)
+//   return a;
+// }
+// console.log(countPositivesSumNegatives([10, 55]))
+
+
+// function countPositivesSumNegatives(input) {
+//   const result = []
+//   let sumPositive = input.filter(number => number > 0).map(number => acc += 1, acc = 0).reverse()[0];
+//   let sumNegative = input.filter(number => number < 0).map(number => acc += number, acc = 0).reverse()[0];
+//   if (sumNegative === undefined) {
+//     sumNegative = 0;
+//   }
+//    if (sumPositive === undefined) {
+//     sumNegative = 0;
+//   }
+  
+//   result.push(sumPositive);
+//   result.push(sumNegative);
+//   return result;
+// }
+
+// console.log(countPositivesSumNegatives([3,9,8]));
