@@ -83,3 +83,16 @@
 //  return newX.split('').reverse().join('')===newX
 // }
 // console.log(isPalindrome('Aba'));
+
+// remove("Hi!") === "Hi!"
+// remove("Hi!!!") === "Hi!"
+// remove("!Hi") === "Hi!"
+// remove("!Hi!") === "Hi!"
+// remove("Hi! Hi!") === "Hi Hi!"
+// remove("Hi") === "Hi!"
+
+function remove (string) {
+  return string.split('').filter(element => element != "!").join('')+'!';
+
+}
+console.log(remove('!!hi!!hi'));
